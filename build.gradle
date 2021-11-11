@@ -13,13 +13,16 @@ repositories {
 }
 
 dependencies {
-	//starter
+	// starter
 	implementation 'org.springframework.boot:spring-boot-starter'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 
-	//web
+	// web
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+	// security
+	implementation 'org.springframework.boot:spring-boot-starter-security'
 }
 
 test {
